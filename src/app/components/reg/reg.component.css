@@ -1,0 +1,28 @@
+label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .main {
+    margin-top: 50px;
+    width: max-content;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .reg {
+    padding: 2%;
+    border: 2px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  
+  .btncenter{
+      display: flex;
+      justify-content: center;
+  }
+  

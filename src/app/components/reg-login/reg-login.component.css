@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    }
+    
+    .reg,.login{
+        padding: 1%;
+        color: white;
+        width: 50%;
+        text-align: center;
+    }
+    
+    a:hover{
+        background-color: yellow;
+        color: black;
+    }
+    
+    .display{
+        display: none;
+    }
+    

@@ -1,0 +1,32 @@
+.tech{
+    background-color: blueviolet;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    text-decoration: none;
+    font-size: x-large;
+ }
+ 
+ .add{
+     width:fit-content;
+     background-color: green;
+     color: white;
+     text-decoration: none;
+     font-size: large;
+     padding: 8px;
+     border-radius: 25px;
+     margin-left: 80%;
+ }
+
+ .logout{
+    position: absolute;
+    top: 15px;
+    left : 93%;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+ }

@@ -1,0 +1,23 @@
+<div class="reg">
+    <div class="main">
+      <h2>Login</h2><br>
+      <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+      <label>User Name</label>
+      <input id="uname" type="text" placeholder="enter name" autocomplete="off" formControlName="username" value="" /><br /><br />
+      <label>Password</label>
+      <input id="psw" type="password" placeholder="enter password" autocomplete="off" formControlName="password" value="" /><br /><br />
+      <!-- <label>Email ID</label>
+      <input id="email" type="text" placeholder="enter email" autocomplete="off" formControlName="email" value="" /><br /><br /><br /> -->
+      <small>{{msg}}</small>
+      <div class="btncenter">
+      <button id="btn" >Login</button>
+  </div>  
+  </form>
+  </div>
+  </div>
+  <!-- <div *ngFor="let data of Data">
+      Name: {{data.user}}<br>
+      Password:{{data.password}}<br>
+      Email:{{data.email}}<br><br><br>
+      </div> -->
+  
